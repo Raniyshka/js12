@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-decoration: none;
+  transition: 0.5s;
+}
+
+body {
+  padding: 40px;
+}
+
+.faq {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 800px;
+}
+
+.faq_item {
+  border: 2px solid black;
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  background-color: black;
+  padding: 20px;
+}
+
+.faq_item h3 {
+  font-size: 20px;
+  color: white;
+}
+
+.faq_item h4 {
+  font-size: 25px;
+  color: white;
+}
+
+.faq_item p {
+  height: 0;
+  overflow: hidden;
+  font-size: 18px;
+  color: blueviolet;
+}
